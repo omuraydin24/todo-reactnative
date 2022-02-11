@@ -8,7 +8,7 @@ const Input = ({onSubmit, todoRef, onChangeText}) => {
       <TextInput
         style={styles.input}
         ref={todoRef}
-        placeholder={'yaz'}
+        placeholder={'bişeyler yaz...'}
         onChangeText={onChangeText}
         placeholderTextColor="#FFF"
       />
